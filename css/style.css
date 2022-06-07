@@ -26,15 +26,27 @@ body {
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
 .link {
     text-decoration: none;
 }
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /*logo-page*/
 .logo-accent-color {
+    padding-top: 60px;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -58,7 +70,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
-
 .site-contact-link {
     color: var(--primary-text-color)
 }
@@ -76,30 +87,38 @@ body {
 
 /*main-hero*/
 .main-hero {
+    text-align: center;
     background: var(--main-hero-backgroud-color);
     color: var(--hero-text-color);
 }
 
 .main-hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 .main-hero-button {
+    border-radius: 4px;
+    padding: 10px 32px;
     font-family:inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
     text-align: center;
+    align-items: center;
     letter-spacing: 0.06em;
     color: var(--hero-text-color);
     background: var(--accent-color-page);
+}
+.main-hero-button:hover,
+.main-hero-button:focus {
+    background: var(--accent-color-page);
+    color: var(--background-color-page);
 }
 
 /*section-feature*/
@@ -113,14 +132,19 @@ body {
 /*section-work*/
 /*section-team*/
 .section-team {
-    color: var(--studio-section-team-color);
+    background-color: var(--studio-section-team-color);
 }
 
 .promo-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     color: var(--title-text-color);
+}
+.work-foto-list{
+    padding-bottom: 94px;
 }
 
 .team-foto-list {
@@ -131,14 +155,19 @@ body {
 }
 
 .team-foto-title {
+    margin-top: 30px;
+    margin-bottom: 0;
     font-size: 16px;
     font-weight: 500;
 }
 .team-foto-text {
+    margin-top: 10px;
+    margin-bottom: 0;
     color: var(--primary-text-color);
 }
 
 .footer-site-contact {
+    margin-top: 20px;
     line-height: 1.71;
 }
 .footer-site{
@@ -149,19 +178,26 @@ body {
 }
 
 .footer-site-link {
+    margin-top: 9px;
     color: var(--contact-footer);
 }
 
 .footer-stile-page {
     background: var(--main-hero-backgroud-color);
 }
-
+.fouter-container-page{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 /*Portfolio*/
 .main-btn-link {
+    border-radius: 4px;
+    padding: 6px 22px;
     font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    text-align: center;
     color: #212121;
     background: var(--main-portfolio-btn);
 }
@@ -171,8 +207,12 @@ body {
     background: var(--accent-color-page);
     color: var(--background-color-page);
 }
-
+.portfolio-work-list{
+    margin-top: 34px;
+}
 .portfolio-work-title {
+    margin-top: 20px;
+    margin-bottom: 0;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -180,6 +220,8 @@ body {
 }
 
 .portfolio-work-text {
+    margin-top: 4px;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.87;
     color: var(--primary-text-color);

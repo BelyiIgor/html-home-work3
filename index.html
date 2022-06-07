@@ -8,11 +8,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="body-content">
+<body>
     <header class="site-header"> 
-        <a href="" class="logo-accent-color link"> Web<span class="color-black">Studio</span></a>
+        <div class="container">
+            <a href="" class="logo-accent-color link"> Web<span class="color-black">Studio</span></a>
         <nav>
             <ul class="header-site-nav list">
                 <li> <a href="" class="site-nav-link link">Студия</a> </li>
@@ -24,6 +26,7 @@
                 <li> <a class="site-contact-link link" href="mailto:info@devstudio.com" >info@devstudio.com</a> </li>
                 <li> <a class="site-contact-link link" href="tel:+380961111111" >+38 096 111 11 11</a> </li>
             </ul>
+        </div>
     </header>
     <main>
         <section class="main-hero">
@@ -31,6 +34,7 @@
             <button class="main-hero-button pointer" type="button">Заказать услугу</button>
         </section>
         <section class="section-feature">
+            <div class="container section">
             <h2 class="visually-hidden">Последовательность эффективной работы</h2>
             <ul class="section-feature-list list"> 
                 <li>
@@ -50,16 +54,20 @@
                     <p class="section-feature-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>        
                </li>                     
             </ul>
+            </div>
         </section>
         <section class="section-work">
+            <div class="container">
             <h2 class="promo-title">Чем мы занимаемся</h2>
                 <ul class="work-foto-list list">
                     <li><img src="./img/box1.jpg" alt="Написание кода в HTML" width="370" height="294"></li>
                     <li><img src="./img/box2.jpg" alt="Разработка web приложений для смартфонов" width="370" height="294"></li> 
                     <li><img src="./img/box3.jpg" alt="Дизайнерское решение" width="370" height="294"></li>
                 </ul>
+            </div>
         </section>
         <section class="section-team">
+            <div class="container section">
             <h2 class="promo-title">Наша команда</h2>
             <ul class="team-foto-list list">
                 <li>
@@ -82,11 +90,13 @@
                     <p class="team-foto-text" lang="en">UI Designer</p>
                 </li>
             </ul>    
+            </div>
         </section>
 
     </main>
 
     <footer class="footer-stile-page">
+    <div class="container fouter-container-page"> 
         <a href="" class="logo-accent-color link"> Web<span class="color-white">Studio</span></a>
         <address class="footer-site">
             <ul class="footer-site-contact list">
@@ -95,6 +105,7 @@
                 <li> <a class="footer-site-link link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
             </ul>
         </address>
+    </div>
     </footer>
 </body>
 </html>
