@@ -164,8 +164,7 @@ body {
 
 .main-hero-button:hover,
 .main-hero-button:focus {
-    background: var(--accent-color-page);
-    color: var(--background-color-page);
+    background: #188CE8;
 }
 
 /*section-feature*/
